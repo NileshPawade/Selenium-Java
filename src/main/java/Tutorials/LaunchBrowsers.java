@@ -4,9 +4,12 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class LaunchBrowsers {
-	public static void main(String[] args) {
+	@Test
+	public void getBroswerAndLaunch()
+	{
 		
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+
 				"\\src\\main\\java\\Webcontents\\chromedriver.exe");
