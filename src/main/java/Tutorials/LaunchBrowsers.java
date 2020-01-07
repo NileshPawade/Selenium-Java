@@ -42,6 +42,8 @@ public class LaunchBrowsers {
 		
 		driver.close();
 		
+		System.out.println("project successfully build");
+		
 	}
 
 }
