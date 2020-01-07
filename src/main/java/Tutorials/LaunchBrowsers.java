@@ -68,7 +68,7 @@ public class LaunchBrowsers {
 		
 		driver.close();
 		
-		System.out.println("project successfully build");
+		System.out.println("msg from local project successfully build");
 		
 	}
 
