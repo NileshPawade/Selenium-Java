@@ -65,10 +65,12 @@ public class LaunchBrowsers {
 		
 		driver.findElement(By.xpath("/html/body/div[2]/div[5]/div[2]/div/form/div[3]/div[1]/input")).click();
 		
-		
+		System.out.println("Closing driver instance");
 		driver.close();
 		
 		System.out.println("msg from local project successfully build");
+		
+		
 		
 	}
 
