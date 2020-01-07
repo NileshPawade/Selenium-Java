@@ -41,7 +41,7 @@ public class LaunchBrowsers {
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		
 		driver.close();
-		
+	;;;;;	
 	}
 
 }
