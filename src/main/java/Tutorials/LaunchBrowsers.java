@@ -68,10 +68,7 @@ public class LaunchBrowsers {
 		System.out.println("Closing driver instance");
 		driver.close();
 		
-		System.out.println("msg from local project successfully build");
-		
-		
-		
+				
 	}
 
 }
